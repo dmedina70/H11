@@ -1,0 +1,7 @@
+function SimpleMessage(req, res) {
+    return res.status(200).json({
+        message: 'Hello from the sample Node.js app!'
+    });
+}
+
+export default SimpleMessage;
