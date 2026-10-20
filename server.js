@@ -1,5 +1,5 @@
 import express from 'express';
-import SimpleMessage from './controller/SimpleMessage.js';
+import SimpleMessage from './controller/simpleMessageController';
 
 const app = express();
 const PORT = 3000;

@@ -1,5 +1,5 @@
 function SimpleMessage(req, res) {
-    return res.status(200).json({
+    return res.json({
         message: 'Hello from the sample Node.js app!'
     });
 }
